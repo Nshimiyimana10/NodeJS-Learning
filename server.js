@@ -13,7 +13,7 @@ server.listen(port, hostname, () => {
 });*/
 
 const http = require('http');
-const port = 7100;
+const port = 7300;
 const server = http.createServer((req,res) =>{
 
     if(req.url ==='/'){
@@ -36,4 +36,3 @@ const server = http.createServer((req,res) =>{
 server.listen(port,()=>{
     console.log(`The server is running at ${port}`);
 })
-
